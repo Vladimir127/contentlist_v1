@@ -24,4 +24,11 @@
     <style name="Theme.Contentlist_v1.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Contentlist_v1.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- ToolBar -->
+    <style name="ToolBarStyle">
+        <item name="android:textColorPrimary">@color/text_icons</item>
+        <item name="android:textColorSecondary">@color/text_icons</item>
+        <item name="actionMenuTextColor">@color/text_icons</item>
+    </style>
 </resources>

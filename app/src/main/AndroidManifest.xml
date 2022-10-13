@@ -17,7 +17,6 @@
         <activity
             android:name=".ReaderActivity"
             android:exported="false"
-            android:label="@string/title_activity_reader"
             android:theme="@style/Theme.Contentlist_v1.NoActionBar"
             android:screenOrientation="portrait"/>
         <activity
