@@ -27,6 +27,8 @@ class ReaderActivity : AppCompatActivity() {
 
         setSupportActionBar(binding.appBarReader.toolbar)
         initDrawer(binding.appBarReader.toolbar)
+
+        initWebView()
     }
 
     private fun initDrawer(toolbar: Toolbar) {
@@ -55,6 +57,9 @@ class ReaderActivity : AppCompatActivity() {
         }
     }
 
+    /**
+     * Поделиться
+     */
     private fun createShareIntent() {
         val intent = Intent(Intent.ACTION_SEND)
         intent.putExtra(
@@ -65,6 +70,9 @@ class ReaderActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    /**
+     * Оценить приложение
+     */
     private fun createRateIntent() {
         val uri: Uri = Uri.parse("market://details?id=$packageName")
         val intent = Intent(Intent.ACTION_VIEW, uri)
@@ -79,5 +87,12 @@ class ReaderActivity : AppCompatActivity() {
             startActivity(Intent(Intent.ACTION_VIEW,
                 Uri.parse("http://play.google.com/store/apps/details?id=$packageName")))
         }
+    }
+
+    /**
+     * Отображение html-документов в WebView
+     */
+    private fun initWebView() {
+        binding.appBarReader.contentReader.webView.loadUrl("file:///android_asset/1.html")
     }
 }

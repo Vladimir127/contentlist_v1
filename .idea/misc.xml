@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projects/AndroidStudioProjects/SurfBroApps/JK_0127_contentlist_v1/app/src/main/res/drawable-anydpi/ic_left.xml" value="0.111" />
+        <entry key="..\:/Projects/AndroidStudioProjects/SurfBroApps/JK_0127_contentlist_v1/app/src/main/res/drawable-anydpi/ic_right.xml" value="0.111" />
         <entry key="..\:/Projects/AndroidStudioProjects/SurfBroApps/JK_0127_contentlist_v1/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
         <entry key="..\:/Projects/AndroidStudioProjects/SurfBroApps/JK_0127_contentlist_v1/app/src/main/res/layout/activity_main.xml" value="0.12447916666666667" />
         <entry key="..\:/Projects/AndroidStudioProjects/SurfBroApps/JK_0127_contentlist_v1/app/src/main/res/layout/activity_reader.xml" value="0.3111979166666667" />
         <entry key="..\:/Projects/AndroidStudioProjects/SurfBroApps/JK_0127_contentlist_v1/app/src/main/res/layout/app_bar_reader.xml" value="0.12447916666666667" />
-        <entry key="..\:/Projects/AndroidStudioProjects/SurfBroApps/JK_0127_contentlist_v1/app/src/main/res/layout/content_reader.xml" value="0.12447916666666667" />
+        <entry key="..\:/Projects/AndroidStudioProjects/SurfBroApps/JK_0127_contentlist_v1/app/src/main/res/layout/content_reader.xml" value="0.3462033462033462" />
         <entry key="..\:/Projects/AndroidStudioProjects/SurfBroApps/JK_0127_contentlist_v1/app/src/main/res/layout/fragment_home.xml" value="0.12447916666666667" />
         <entry key="..\:/Projects/AndroidStudioProjects/SurfBroApps/JK_0127_contentlist_v1/app/src/main/res/layout/nav_header_reader.xml" value="0.3333333333333333" />
         <entry key="..\:/Projects/AndroidStudioProjects/SurfBroApps/JK_0127_contentlist_v1/app/src/main/res/menu/activity_main_drawer.xml" value="0.536" />

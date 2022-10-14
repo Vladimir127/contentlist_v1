@@ -8,4 +8,6 @@
 
     <string name="menu_share">Поделиться</string>
     <string name="menu_rate">Оценить</string>
+    <string name="back">Назад</string>
+    <string name="next">Вперёд</string>
 </resources>

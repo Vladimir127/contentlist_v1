@@ -21,6 +21,6 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_reader" />
+    <include android:id="@+id/content_reader" layout="@layout/content_reader" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
