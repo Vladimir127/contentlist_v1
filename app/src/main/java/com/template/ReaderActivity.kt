@@ -72,8 +72,11 @@ class ReaderActivity : AppCompatActivity() {
                 // Это папка
                 for (file in list) {
                     if (!listAssetFiles("$path/$file")) return false else {
-                        // Это файл
-                        pages.add(file)
+                        // Это файл. Добавляем его в список страниц только в том
+                        // случае, если его название заканчивается на .html
+                        if (file.endsWith(".html")) {
+                            pages.add(file)
+                        }
                     }
                 }
             }
